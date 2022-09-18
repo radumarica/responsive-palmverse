@@ -1,0 +1,180 @@
+/* @import './index.css'; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+	.hidden.wp-home-content {
+		max-width: 1440px;
+		margin: 0 auto
+	}
+
+	.wp-flex-boxes div {
+		margin: 0 45px;
+		width: calc(33.33% - 90px);
+	}
+
+	.wp-flex-boxes {
+		flex-wrap: wrap;
+	}
+
+	.img-col-pc {
+		max-width: 800px
+	}
+
+	.wp-col-50 {
+		width: calc(50% - 30px);
+		margin: 0 15px;
+	}
+
+	.laptop-sec {
+		justify-content: flex-end !important;
+	}
+
+
+	.full-width-img {
+		max-width: 1200px;
+		/* min-height: 762px; */
+		width: 100%;
+	}
+
+	.full-width-img>span {
+		width: 100% !important
+	}
+
+	.full-img-text {
+		max-width: 970px;
+		margin: 0 auto;
+
+	}
+
+	.full-img-text p {
+		padding-left: 15px
+	}
+
+	.max-1100 {
+		max-width: 1100px;
+		margin: 22px auto 0;
+	}
+
+	.max-985 {
+		max-width: 985px;
+		margin: 0 auto;
+	}
+
+
+	.team-sec {
+		max-width: 1400px;
+		margin: 0 auto;
+		width: 100%;
+		padding: 0 20px;
+	}
+
+	.team-sec>div>div {
+		margin-bottom: 10px
+	}
+
+
+	/*--Tab-Responsive--*/
+
+
+	@media only screen and (min-width: 900px) and (max-width: 1150px) {
+		.utility-items h1.md\:text-\[26px\] {
+			font-size: 21px;
+			line-height: 23px;
+		}
+	}
+
+	@media only screen and (min-width: 768px) and (max-width: 900px) {
+		.wp-wrap {
+			flex-wrap: wrap
+		}
+
+		.wp-col-50 {
+			width: 100%;
+		}
+
+		 .palm {
+			font-size: 23px !important;
+		}
+
+		nav ul a , nav ul h3 , nav ul .relative{
+			font-size:16px !important;
+			margin-left: 20px !important
+		}
+
+		nav ul .relative h3 , nav ul .relative a{
+			margin: 0 !important
+		}
+		
+		
+	}
+
+
+	@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+		.wp-tab-hero.md\:h-\[90vh\] {
+			height: 80vh;
+		}
+
+		.wp-tab-left.md\:left-10 {
+			left: 100px
+		}
+
+		.wp-flex-boxes {
+			justify-content: space-evenly;
+		}
+
+		.wp-flex-boxes div {
+			width: calc(50% - 90px);
+		}
+
+
+		.img-content .text-col {
+			padding-top: 20px
+		}
+
+		.img-content .text-col h1 {
+			font-size: 28px;
+			line-height: 35px;
+		}
+
+		.img-content .img-col {
+			max-width: 300px
+		}
+
+		.img-content .img-col span {
+			width: 300px !important;
+			height: 300px !important;
+		}
+
+		.img-content .img-col img {
+			width: 100% !important;
+		}
+
+		/* .wp-wrap{
+		   flex-wrap:wrap
+		}  */
+
+		.why-costa-img {
+			margin-top: -9rem !important;
+		}
+
+
+
+	}
+
+	@media only screen and (min-width: 550px) and (max-width: 768px) {
+		/* .wp-tab-hero.md\:h-\[90vh\] {
+			height:70vh;
+		} */
+
+		.wp-tab-left.md\:left-10 {
+			left: 80px
+		}
+	}
+
+
+}

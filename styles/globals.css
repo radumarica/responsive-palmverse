@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './index.css';
+
+
+@layer components {
+  .btn {
+    background: rgb(108, 50, 124);
+    background: linear-gradient(
+      90deg,
+      rgba(108, 50, 124, 1) 0%,
+      rgba(111, 213, 173, 1) 100%
+    );
+  }
+  .btn-rev {
+    background: rgb(108, 50, 124);
+    background: linear-gradient(
+      90deg,
+      rgba(111, 213, 173, 1) 0%,
+      rgba(108, 50, 124, 1) 100%
+    );
+  }
+
+
+
+}
+
+
+
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background-color: transparent;
+}
+::-webkit-scrollbar {
+  width: 4px !important;
+  border-radius: 14px;
+  background-color: black;
+  height: 0;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 13px;
+  background-color: white;
+  /* border: 0.5px solid #555555; */
+}
+body {
+  background-color: '#2A2A29';
+}
+
