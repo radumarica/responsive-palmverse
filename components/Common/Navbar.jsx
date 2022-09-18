@@ -78,17 +78,16 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
                     </Link>
                 ))
             }
-            {<div className="relative">
+            <div className="relative">
 
 
 
-                <h3 onMouseEnter={() => setShowDrop(true)} className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                <h3   className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
                     What We Build
                 </h3>
 
-                {
-                    showDrop && (
-                        <div className="absolute z-10 top-8 -left-2   bg-dark_bg pr-5 pl-3 pb-3 w-40" onMouseEnter={() => setShowDrop(true)} onMouseLeave={() => setShowDrop(false)}>
+          
+                        <div className="absolute z-10 top-8 -left-2   bg-dark_bg pr-5 pl-3 pb-3 w-40  " >
                             <Link
                                 href={'first-location'}
 
@@ -112,10 +111,8 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
 
                             </a>
                         </div>
-                    )
-                }
+                 
             </div>
-            }
 
 
             <Link
