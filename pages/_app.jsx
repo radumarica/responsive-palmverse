@@ -60,7 +60,7 @@ function MyApp({ Component, pageProps }) {
 
 
 
-                      <h3 onClick={() => setShowDrop(!showDrop)} onMouseEnter={() => setShowDrop(true)} className="hover:text-[#13D511] text-2xl text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                      <h3 onClick={() => setShowDrop(!showDrop)} onMouseOver={() => setShowDrop(true)} onMouseOut={() => setShowDrop(false)} className="hover:text-[#13D511] text-2xl text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
                         What We Build
                       </h3>
 
