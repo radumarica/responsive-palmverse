@@ -81,6 +81,10 @@
 	nav ul .relative{
 		position: relative
 	}
+
+	nav ul a , nav ul h3 , nav ul .relative , nav ul .relative h3 , nav ul .relative a {
+		cursor:pointer !important
+	}
 	
 	nav ul .relative:after{
 		content: "";

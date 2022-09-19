@@ -71,7 +71,7 @@ function MyApp({ Component, pageProps }) {
                               href={'first-location'}
 
                             >
-                              <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-xl text-center pt-4  text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                              <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-xl text-center pt-4  text-[#ECF7FD] transition-all font-semibold  ">
                                 1st Location
                               </h3>
                             </Link>
@@ -79,11 +79,11 @@ function MyApp({ Component, pageProps }) {
                               href={'/roadmap'}
 
                             >
-                              <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-xl text-center py-4 text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                              <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-xl text-center py-4 text-[#ECF7FD] transition-all font-semibold  ">
                                 Roadmap
                               </h3>
                             </Link>
-                            <a className="hover:text-[#13D511] text-xl text-center pt-4 text-[#ECF7FD] transition-all font-semibold cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
+                            <a className="hover:text-[#13D511] text-xl text-center pt-4 text-[#ECF7FD] transition-all font-semibold  " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
 
                               <h1 onClick={() => setMobilNav(false)} className="text-center">
 
@@ -98,15 +98,15 @@ function MyApp({ Component, pageProps }) {
                         href='/faq'
 
                       >
-                        <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center py-10 text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                        <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center py-10 text-[#ECF7FD] transition-all font-semibold  ">
 
                           FAQ
                         </h3>
                       </Link>
-                       <a onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center text-[#ECF7FD] transition-all font-semibold cursor-pointer "  href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer">
+                       <a onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center text-[#ECF7FD] transition-all font-semibold  "  href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer">
                         <h1 className="text-center"> Book</h1>
 
-                      </a> */
+                      </a> 
                     </div>
 
 
